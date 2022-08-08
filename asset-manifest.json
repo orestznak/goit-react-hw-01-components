@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/orestznak/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/orestznak/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.js": "/orestznak/goit-react-hw-01-components/static/js/main.71f3017d.js",
     "index.html": "/orestznak/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/orestznak/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/orestznak/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.71f3017d.js.map": "/orestznak/goit-react-hw-01-components/static/js/main.71f3017d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.71f3017d.js"
   ]
 }
