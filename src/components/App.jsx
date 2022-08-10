@@ -5,7 +5,7 @@ import user from '../user.json';
 
 export const App = () => {
   return (
-    <Box height="100vh" display="flex" justifyContent="center" alignItems="center" fontSize="40" background="#d9ecff" >
+    <Box display="flex" justifyContent="center" alignItems="center" fontSize="40" background="#d9ecff" >
       <Profile user={user}/>
     </Box>
   

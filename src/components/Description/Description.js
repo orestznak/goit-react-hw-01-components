@@ -1,14 +1,16 @@
+import { ImageUser,Name,UserInfo } from "./Description.styled"
+import { Box } from "components/Box"
 
 export const Description  = ({userInfo: { avatar, username, tag, location }}) => {
     return (
-    <div>
-        <img
+    <Box display="flex" flexDirection="column" alignItems="center" paddingY="16px">
+        <ImageUser
             src={`${avatar}`}
             alt={username}
         />
-        <p class="name">{username}</p>
-        <p class="tag">@{tag}</p>
-        <p class="location">{location}</p>
-  </div>
+        <Name>{username}</Name>
+        <UserInfo>@{tag}</UserInfo>
+        <UserInfo>{location}</UserInfo>
+  </Box>
     )
 }

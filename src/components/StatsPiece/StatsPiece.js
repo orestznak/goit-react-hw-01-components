@@ -1,10 +1,11 @@
-import { Box } from "components/Box"
+import { Box } from "components/Box";
+import { Lable, Quantity } from "./StatsPiece.styled";
 
 export const StatsPiece = ({label, quantity}) => {
     return (
-        <Box display="flex" flexWrap="wrap">
-            <span>{label}</span>
-            <span>{quantity}</span>
+        <Box as="li" display="flex" flexDirection="column" justifyContent="center" alignItems="center" width="120px"  height="120px" background="#d9f3ff" border="1px #d9ecff solid" >
+            <Lable>{label}</Lable>
+            <Quantity>{quantity}</Quantity>
         </Box>
     )
 }
