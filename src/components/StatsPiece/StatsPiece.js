@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Box } from "components/Box";
 import { Lable, Quantity } from "./StatsPiece.styled";
 
@@ -7,5 +8,10 @@ export const StatsPiece = ({label, quantity}) => {
             <Lable>{label}</Lable>
             <Quantity>{quantity}</Quantity>
         </Box>
-    )
+    )    
+}
+
+StatsPiece.propTypes = {
+    label: PropTypes.string.isRequired,
+    quantity: PropTypes.number.isRequired,
 }

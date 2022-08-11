@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import { ImageUser,Name,UserInfo } from "./Description.styled"
 import { Box } from "components/Box"
 

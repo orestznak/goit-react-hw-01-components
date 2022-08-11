@@ -1,6 +1,9 @@
+import PropTypes from 'prop-types'
+
 import { Description } from '../Description/Description'
 import { Stats } from 'components/Stats/Stats'
 import { Box } from 'components/Box'
+
 
 export const Profile = ({user}) => {
     return (
