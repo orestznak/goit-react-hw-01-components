@@ -11,6 +11,24 @@ export const Profile = ({user}) => {
             <Description userInfo={user}/>
             <Stats stats={user.stats}/>
         </Box>
-    )}
-  
+    )
+}
+
+Profile.prototype = {
+    user: PropTypes.exact({
+      username: PropTypes.string,
+      tag: PropTypes.string,
+      location: PropTypes.string,
+      avatar: PropTypes.string,
+      stats: PropTypes.exact({
+        followers: PropTypes.number,
+        virws: PropTypes.number,
+        likes: PropTypes.number,
+
+      })
+    })
+}
+ 
+    
+
   
