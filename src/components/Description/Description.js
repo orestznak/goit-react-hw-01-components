@@ -16,3 +16,12 @@ export const Description  = ({userInfo: { avatar, username, tag, location }}) =>
   </Box>
     )
 }
+
+Description.prototype ={
+    userInfo: PropTypes.shape({
+      avatar: PropTypes.string.isRequired,
+      username: PropTypes.string.isRequired,
+      tag: PropTypes.string.isRequired,
+      location: PropTypes.string.isRequired,
+    })
+}
