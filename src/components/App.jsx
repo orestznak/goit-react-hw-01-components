@@ -19,8 +19,8 @@ export const App = () => {
     <Box display="flex" justifyContent="center" flexDirection="column" alignItems="center" fontSize="40" background="#d9ecff" >
       <Profile user={user}/>
       <Statistics items={data}/> 
-      <FriendList friends={friends} />;
-      <TransactionHistory  items={transactions}/>;
+      <FriendList friends={friends} />
+      <TransactionHistory  items={transactions}/>
     </Box>
   
     );
