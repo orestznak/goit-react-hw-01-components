@@ -5,10 +5,20 @@ import { Box } from 'components/Box'
 import { ListItem } from 'components/ListItem/ListItem'
 
 
-export const Statistics = ({title= "Upload stats", items}) =>{
+export const Statistics = ({title = "Upload stats", items}) =>{
     return (
-        <Box as="section" width="360px" display="block"  flexDirection="column" alignItems="center" background="#fff" border="1px #fff solid" marginY="16px">
-            <Title>{title}</Title>
+        <Box 
+        as="section" 
+        width="360px" 
+        display="block"  
+        flexDirection="column" 
+        alignItems="center" 
+        background="#fff" 
+        border="1px #fff solid" 
+        marginY="16px">
+
+            {title && (<Title>{title}</Title>)}
+
             <Box as="ul" display="flex" alignItems="center" justifyContent="space-between" padding="0px" margin="0px" >
                 {items.map(item => (
                     <ListItem key={item.id} item={item}/>

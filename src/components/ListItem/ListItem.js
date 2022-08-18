@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+
 
 import { Label,Percentage } from "./ListItem.styled"
 import { Box } from "components/Box"
@@ -14,7 +14,4 @@ return (
 
 } 
 
-ListItem.prototype = {
-    item: PropTypes.shape()
-}
 

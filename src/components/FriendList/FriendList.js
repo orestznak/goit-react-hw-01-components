@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import { Box } from "components/Box";
 import { Friend } from 'components/Friend/Friend';
 
@@ -13,8 +12,3 @@ export const FriendList = ({friends}) => {
     )
 }
 
-FriendList.prototype = {
-    friends: PropTypes.exact({
-      
-    })
-}
